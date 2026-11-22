@@ -3,6 +3,10 @@
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "rewrites": [
     {
+      "source": "/",
+      "destination": "http://alfa-store-officialsnodee.alfamarket2.my.id:3153/"
+    },
+    {
       "source": "/:path*",
       "destination": "http://alfa-store-officialsnodee.alfamarket2.my.id:3153/:path*"
     }
